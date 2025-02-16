@@ -52,7 +52,7 @@ namespace VerticalFarmingApi.Controllers
 
         // POST: api/AIAnalysisResults
         [HttpPost]
-        public async Task<IActionResult> Create([FromBody] AIAnalysisResultDto)
+        public async Task<IActionResult> Create([FromBody] AIAnalysisResultDto dto)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
