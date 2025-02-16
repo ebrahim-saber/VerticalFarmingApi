@@ -1,0 +1,609 @@
+[
+  {
+    "ContainingType": "VerticalFarmingApi.Controllers.CropHealthReportsController",
+    "Method": "GetCropHealthReports",
+    "RelativePath": "api/CropHealthReports",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VerticalFarmingApi.Controllers.CropHealthReportsController",
+    "Method": "CreateCropHealthReport",
+    "RelativePath": "api/CropHealthReports",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reportDto",
+        "Type": "VerticalFarmingApi.Models.DTO__Data_Transfer_Objects_.CropHealthReportDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VerticalFarmingApi.Controllers.CropHealthReportsController",
+    "Method": "GetCropHealthReport",
+    "RelativePath": "api/CropHealthReports/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VerticalFarmingApi.Controllers.CropHealthReportsController",
+    "Method": "UpdateCropHealthReport",
+    "RelativePath": "api/CropHealthReports/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "reportDto",
+        "Type": "VerticalFarmingApi.Models.DTO__Data_Transfer_Objects_.CropHealthReportDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VerticalFarmingApi.Controllers.CropHealthReportsController",
+    "Method": "DeleteCropHealthReport",
+    "RelativePath": "api/CropHealthReports/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VerticalFarmingApi.Controllers.CropHealthReportsController",
+    "Method": "GetFullReport",
+    "RelativePath": "api/CropHealthReports/report",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "farmId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VerticalFarmingApi.Controllers.CropHealthReportsController",
+    "Method": "UpdateCropHealthReportRecord",
+    "RelativePath": "api/CropHealthReports/report/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "reportDto",
+        "Type": "VerticalFarmingApi.Models.DTO__Data_Transfer_Objects_.CropHealthReportDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VerticalFarmingApi.Controllers.CropHealthReportsController",
+    "Method": "DeleteCropHealthReportRecord",
+    "RelativePath": "api/CropHealthReports/report/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VerticalFarmingApi.Controllers.CropsController",
+    "Method": "GetCrops",
+    "RelativePath": "api/Crops",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VerticalFarmingApi.Controllers.CropsController",
+    "Method": "CreateCrop",
+    "RelativePath": "api/Crops",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cropDto",
+        "Type": "VerticalFarmingApi.Models.DTO__Data_Transfer_Objects_.CropDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VerticalFarmingApi.Controllers.CropsController",
+    "Method": "GetCrop",
+    "RelativePath": "api/Crops/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VerticalFarmingApi.Controllers.CropsController",
+    "Method": "UpdateCrop",
+    "RelativePath": "api/Crops/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "cropDto",
+        "Type": "VerticalFarmingApi.Models.DTO__Data_Transfer_Objects_.CropDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VerticalFarmingApi.Controllers.CropsController",
+    "Method": "DeleteCrop",
+    "RelativePath": "api/Crops/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VerticalFarmingApi.Controllers.DiseaseAlertsController",
+    "Method": "GetDiseaseAlerts",
+    "RelativePath": "api/DiseaseAlerts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VerticalFarmingApi.Controllers.DiseaseAlertsController",
+    "Method": "CreateDiseaseAlert",
+    "RelativePath": "api/DiseaseAlerts",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "alertDto",
+        "Type": "VerticalFarmingApi.Models.DTO__Data_Transfer_Objects_.DiseaseAlertDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VerticalFarmingApi.Controllers.DiseaseAlertsController",
+    "Method": "GetDiseaseAlert",
+    "RelativePath": "api/DiseaseAlerts/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VerticalFarmingApi.Controllers.DiseaseAlertsController",
+    "Method": "UpdateDiseaseAlert",
+    "RelativePath": "api/DiseaseAlerts/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "alertDto",
+        "Type": "VerticalFarmingApi.Models.DTO__Data_Transfer_Objects_.DiseaseAlertDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VerticalFarmingApi.Controllers.DiseaseAlertsController",
+    "Method": "DeleteDiseaseAlert",
+    "RelativePath": "api/DiseaseAlerts/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VerticalFarmingApi.Controllers.FarmsController",
+    "Method": "GetFarms",
+    "RelativePath": "api/Farms",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VerticalFarmingApi.Controllers.FarmsController",
+    "Method": "CreateFarm",
+    "RelativePath": "api/Farms",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "farmDto",
+        "Type": "VerticalFarmingApi.Models.DTO__Data_Transfer_Objects_.FarmDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VerticalFarmingApi.Controllers.FarmsController",
+    "Method": "GetFarm",
+    "RelativePath": "api/Farms/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VerticalFarmingApi.Controllers.FarmsController",
+    "Method": "UpdateFarm",
+    "RelativePath": "api/Farms/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "farmDto",
+        "Type": "VerticalFarmingApi.Models.DTO__Data_Transfer_Objects_.FarmDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VerticalFarmingApi.Controllers.FarmsController",
+    "Method": "DeleteFarm",
+    "RelativePath": "api/Farms/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VerticalFarmingApi.Controllers.SensorDatasController",
+    "Method": "GetSensorDatas",
+    "RelativePath": "api/SensorDatas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VerticalFarmingApi.Controllers.SensorDatasController",
+    "Method": "CreateSensorData",
+    "RelativePath": "api/SensorDatas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dataDto",
+        "Type": "VerticalFarmingApi.Models.DTO__Data_Transfer_Objects_.SensorDataDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VerticalFarmingApi.Controllers.SensorDatasController",
+    "Method": "GetSensorData",
+    "RelativePath": "api/SensorDatas/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VerticalFarmingApi.Controllers.SensorDatasController",
+    "Method": "UpdateSensorData",
+    "RelativePath": "api/SensorDatas/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dataDto",
+        "Type": "VerticalFarmingApi.Models.DTO__Data_Transfer_Objects_.SensorDataDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VerticalFarmingApi.Controllers.SensorDatasController",
+    "Method": "DeleteSensorData",
+    "RelativePath": "api/SensorDatas/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VerticalFarmingApi.Controllers.SensorImagesController",
+    "Method": "GetImage",
+    "RelativePath": "api/SensorImages/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VerticalFarmingApi.Controllers.SensorImagesController",
+    "Method": "DeleteImage",
+    "RelativePath": "api/SensorImages/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VerticalFarmingApi.Controllers.SensorImagesController",
+    "Method": "UpdateCaptureInterval",
+    "RelativePath": "api/SensorImages/updateInterval/{minutes}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "minutes",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VerticalFarmingApi.Controllers.SensorsController",
+    "Method": "GetSensors",
+    "RelativePath": "api/Sensors",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VerticalFarmingApi.Controllers.SensorsController",
+    "Method": "CreateSensor",
+    "RelativePath": "api/Sensors",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sensorDto",
+        "Type": "VerticalFarmingApi.Models.DTO__Data_Transfer_Objects_.SensorDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VerticalFarmingApi.Controllers.SensorsController",
+    "Method": "GetSensor",
+    "RelativePath": "api/Sensors/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VerticalFarmingApi.Controllers.SensorsController",
+    "Method": "UpdateSensor",
+    "RelativePath": "api/Sensors/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "sensorDto",
+        "Type": "VerticalFarmingApi.Models.DTO__Data_Transfer_Objects_.SensorDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VerticalFarmingApi.Controllers.SensorsController",
+    "Method": "DeleteSensor",
+    "RelativePath": "api/Sensors/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VerticalFarmingApi.Controllers.UsersController",
+    "Method": "Login",
+    "RelativePath": "api/UserAuth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "VerticalFarmingApi.Models.DTO.LoginRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VerticalFarmingApi.Controllers.UsersController",
+    "Method": "Register",
+    "RelativePath": "api/UserAuth/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "VerticalFarmingApi.Models.DTO.RegisterationRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

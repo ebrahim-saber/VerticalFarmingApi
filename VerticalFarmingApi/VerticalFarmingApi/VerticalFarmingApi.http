@@ -1,0 +1,6 @@
+@VerticalFarmingApi_HostAddress = http://localhost:5250
+
+GET {{VerticalFarmingApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

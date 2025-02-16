@@ -1,0 +1,20 @@
+{
+  "Version": 1,
+  "Hash": "sJxBvzPnewL2abNm4SyYfHIAfqkkk/RYjWYJZBXfC2Y=",
+  "Source": "VerticalFarmingApi",
+  "BasePath": "_content/VerticalFarmingApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "VerticalFarmingApi\\wwwroot",
+      "Source": "VerticalFarmingApi",
+      "ContentRoot": "E:\\Project_grad\\VerticalFarmingApi\\VerticalFarmingApi\\wwwroot\\",
+      "BasePath": "_content/VerticalFarmingApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [],
+  "Endpoints": []
+}

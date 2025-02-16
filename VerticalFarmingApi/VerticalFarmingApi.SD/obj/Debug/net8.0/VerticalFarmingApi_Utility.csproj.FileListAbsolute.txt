@@ -1,0 +1,12 @@
+E:\Project_grad\VerticalFarmingApi\VerticalFarmingApi.SD\bin\Debug\net8.0\VerticalFarmingApi_Utility.deps.json
+E:\Project_grad\VerticalFarmingApi\VerticalFarmingApi.SD\bin\Debug\net8.0\VerticalFarmingApi_Utility.dll
+E:\Project_grad\VerticalFarmingApi\VerticalFarmingApi.SD\bin\Debug\net8.0\VerticalFarmingApi_Utility.pdb
+E:\Project_grad\VerticalFarmingApi\VerticalFarmingApi.SD\obj\Debug\net8.0\VerticalFarmingApi_Utility.GeneratedMSBuildEditorConfig.editorconfig
+E:\Project_grad\VerticalFarmingApi\VerticalFarmingApi.SD\obj\Debug\net8.0\VerticalFarmingApi_Utility.AssemblyInfoInputs.cache
+E:\Project_grad\VerticalFarmingApi\VerticalFarmingApi.SD\obj\Debug\net8.0\VerticalFarmingApi_Utility.AssemblyInfo.cs
+E:\Project_grad\VerticalFarmingApi\VerticalFarmingApi.SD\obj\Debug\net8.0\VerticalFarmingApi_Utility.csproj.CoreCompileInputs.cache
+E:\Project_grad\VerticalFarmingApi\VerticalFarmingApi.SD\obj\Debug\net8.0\VerticalFarmingApi_Utility.sourcelink.json
+E:\Project_grad\VerticalFarmingApi\VerticalFarmingApi.SD\obj\Debug\net8.0\VerticalFarmingApi_Utility.dll
+E:\Project_grad\VerticalFarmingApi\VerticalFarmingApi.SD\obj\Debug\net8.0\refint\VerticalFarmingApi_Utility.dll
+E:\Project_grad\VerticalFarmingApi\VerticalFarmingApi.SD\obj\Debug\net8.0\VerticalFarmingApi_Utility.pdb
+E:\Project_grad\VerticalFarmingApi\VerticalFarmingApi.SD\obj\Debug\net8.0\ref\VerticalFarmingApi_Utility.dll
