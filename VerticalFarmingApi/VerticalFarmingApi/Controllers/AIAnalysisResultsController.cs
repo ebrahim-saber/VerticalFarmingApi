@@ -1,5 +1,8 @@
-﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using VerticalFarmingApi.Models;
+using VerticalFarmingApi.Models.DTO__Data_Transfer_Objects_;
+using VerticalFarmingApi.Repositories.IRepository;
 
 namespace VerticalFarmingApi.Controllers
 {
@@ -49,7 +52,7 @@ namespace VerticalFarmingApi.Controllers
 
         // POST: api/AIAnalysisResults
         [HttpPost]
-        public async Task<IActionResult> Create([FromBody] AIAnalysisResultDto dto)
+        public async Task<IActionResult> Create([FromBody] AIAnalysisResultDto)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
