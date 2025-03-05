@@ -1,4 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using VerticalFarmingApi.Data;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
@@ -8,6 +8,8 @@ using VerticalFarmingApi.Repositories.IRepository;
 using Microsoft.OpenApi.Models;
 using VerticalFarmingApi.Services;
 using VerticalFarmingApi.Services.IServices;
+using VerticalFarmingApi.Mapping;
+using VerticalFarmingApi.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,6 +23,7 @@ builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped<IUserReository, UserRepository>();
 builder.Services.AddHttpClient<IAuthService, AuthService>();
 builder.Services.AddScoped<IAuthService, AuthService>();
+builder.Services.AddAutoMapper(typeof(MappingProfile));
 
 
 // تسجيل SensorImageCaptureService
@@ -92,6 +95,8 @@ builder.Services.AddSwaggerGen(options => {
 
 var app = builder.Build();
 
+//Middleware
+app.UseCustomExceptionMiddleware();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
